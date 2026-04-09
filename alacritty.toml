@@ -1,0 +1,16 @@
+[window]
+padding.x = 10
+padding.y = 10
+[colors.primary]
+background = '#000000'
+foreground = '#ffffff'
+
+[font]
+normal.family = "monospace"
+size = 10.0
+
+[cursor]
+# Isso controla se o cursor é bloco, underline ou barra
+[cursor.style]
+shape = "Underline"
+blinking = "Off"
