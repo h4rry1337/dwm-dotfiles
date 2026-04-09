@@ -1,0 +1,7 @@
+[Desktop Entry]
+Enconding=UTF-8 
+Name=dwm
+Comment=dwmeow
+Exec=/usr/local/bin/startdwm.sh
+Icon=
+Type=Application
