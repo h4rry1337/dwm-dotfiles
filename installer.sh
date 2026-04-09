@@ -59,7 +59,7 @@ sudo chmod 755 /usr/local/bin/startdwm.sh
 sudo mv dwm.desktop /usr/share/xsessions/
 
 echo "[+] Copiando wallpapers..."
-cp -r .wallpapers ~/.wallpapers
+mkdir -p ~/.wallpapers && mv wallpaper-animefoda.jpg ~/.wallpapers/
 
 echo "=============================="
 echo "[✓] Instalação concluída!"
