@@ -56,6 +56,7 @@ done
 echo "[+] Instalando startdwm.sh..."
 sudo mv startdwm.sh /usr/local/bin/startdwm.sh
 sudo chmod 755 /usr/local/bin/startdwm.sh
+sudo mv dwm.desktop /usr/share/xsessions/
 
 echo "[+] Copiando wallpapers..."
 cp -r .wallpapers ~/.wallpapers
