@@ -14,7 +14,7 @@ echo "=============================="
 echo "[+] Instalando dependências..."
 sudo pacman -S --needed --noconfirm \
     feh unzip base-devel libx11 libxft libxinerama \
-    xclip flameshot
+    xclip flameshot alacritty
 
 echo "[+] Extraindo arquivos..."
 for file in bkp-*.zip; do
@@ -57,6 +57,10 @@ echo "[+] Instalando startdwm.sh..."
 sudo mv startdwm.sh /usr/local/bin/startdwm.sh
 sudo chmod 755 /usr/local/bin/startdwm.sh
 sudo mv dwm.desktop /usr/share/xsessions/
+
+echo "[+] Configurando o terminal..."
+mv alacritty.toml ~/.config/alacritty/alacritty.toml
+mv bashrc.config ~/.bashrc
 
 echo "[+] Copiando wallpapers..."
 mkdir -p ~/.wallpapers && mv wallpaper-animefoda.jpg ~/.wallpapers/
