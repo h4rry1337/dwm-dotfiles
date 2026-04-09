@@ -61,6 +61,7 @@ sudo mv dwm.desktop /usr/share/xsessions/
 echo "[+] Configurando o terminal..."
 mv alacritty.toml ~/.config/alacritty/alacritty.toml
 mv bashrc.config ~/.bashrc
+source ~/.bashrc
 
 echo "[+] Copiando wallpapers..."
 mkdir -p ~/.wallpapers && mv wallpaper-animefoda.jpg ~/.wallpapers/
